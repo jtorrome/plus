@@ -9,6 +9,7 @@ import javax.swing.*;
 public class Dado {
     public static void main(String[] args) throws Exception {
         // TODO code application logic here
+        System.out.println("INICIA EL JUEGO DE LOS DADOS");
         int cont=0,tirada=0;
     
         tirada=Integer.parseInt(JOptionPane.showInputDialog(null,"Cantidad"));
@@ -27,6 +28,7 @@ public class Dado {
         
             Thread.sleep(1000);
         }
+        System.out.println("HA FINALIZADO EL JUEGO");
     }
     
      public static int dado (int dado)throws Exception{
