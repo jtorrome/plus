@@ -29,6 +29,7 @@ public class Dado {
             Thread.sleep(1000);
         }
         System.out.println("HA FINALIZADO EL JUEGO");
+        System.out.println("Adios");
     }
     
      public static int dado (int dado)throws Exception{
