@@ -1,5 +1,9 @@
 # Practica Plus contenido
-Carpeta Dado
-Servidor.mp3
 
-Aquí podemos describir qué pretende esta práctica y qué se espera de los colaboradores. (Y anunciarlo también en el Foro)
+### Aquí y en el foro de Aules (en la entrada: GitHub - Práctica III Plus +) debéis explicar:
+
+### Quiénes sois, Cúal es el proyecto y Qué se espera de los colaboradores
+
+Carpeta Dado
+
+Servidor.mp3
