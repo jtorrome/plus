@@ -1,9 +1,9 @@
-# Practica Plus contenido
+Somos Antonio García y Juan Jose Torromé.
 
-### Aquí y en el foro de Aules (en la entrada: GitHub - Práctica III Plus +) debéis explicar:
+DESCRIPCIÓN DEL PROYECTO
+Este proyecto va a consistir en una serie de minijuegos para hacer mas amena la cuarentena. 
+Nosotros hemos empezado creando un archivo .java llamado dado que genera números aleatorios.
 
-### Quiénes sois, Cúal es el proyecto y Qué se espera de los colaboradores
-
-Carpeta Dado
-
-Servidor.mp3
+COLABORADORES
+Esperamos que los colaboradores generen un archivo con un minijuego(si se desea se puede utilizar el archivo dado.java ya creado) y 
+que miren si pueden mejorar los minijuegos que esten subidos.
