@@ -1,0 +1,79 @@
+
+Parte Obligatoria
+-----------------
+
+Matriz de enteros 9x9. 
+
+La cuadrícula está formateada y los ceros aparecen como celdas vacias. 
+
+Permite introducir casillas y verifica las normas (fila,columna,sector).
+
+Si la jugada no cumple las reglas, no deja introducir valor y muesta mensaje "EL NUMERO ESTA REPETIDO".
+
+Muestra felicitacion al completar el sudoku (comprueba que no existan celdas con valor 0).
+
+El tablero consta de 20 casillas predefinidas.
+
+
+
+Parte Opcional
+---------------
+
+Teclear "reiniciar" devuelve el mismo tablero con los valores predefinidos.
+
+Teclear "nuevo" permite seleccionar un nuevo tablero y jugarlo sin tener que pasar por el menú.
+	El proceso termina la partida actual y comienza una nueva.
+	No guarda el progreso.
+
+Se puede guardar partida (guarda el array) en un fichero de texto al escribir "guardar".
+
+Se puede cargar partida (lee el array de un fichero).
+	Movido a menu principal como seleccionable.
+
+Retroceder partida. Actualmente funciona para la ultima jugada. (Sustituye el valor actual por el valor anterior).
+	No funciona 2 veces consecutivas.
+ 
+-----------------------------------------
+
+-Las funciones de resolver NO estan.
+
+-Las funciones de no modificar las casillas iniciales NO estan.
+
+ 
+
+
+Añadido
+-------
+
+Pequeña introduccion y cierre a modo de presentacion.
+
+Instrucciones con reglas de juego y funcines del programa.
+
+3 tableros diferentes seleccionables desde el menu principal.
+	El programa muestra el tablero seleccionado y pide confirmar.
+
+Al guardar partida, permite introducir nombre del fichero. Si este existe, pregunta si sobreescribir y no machaca.
+	El programa espera un nombre. Obliga a guardar.
+	Muestra ruta donde se guarda el fichero.
+
+Al cargar partida, hace un listado de los txt (supuestas partidas).
+	Muestra la ruta por defecto del lugar de los ficheros.
+	El programa espera el nombre de un fichero.txt por lo que debe existir uno.
+	Una vez cargado. Muestra los valores de las casillas (en formato array, no sudoku).
+
+Teclear "terminar" termina la partida y vuelve al menú.
+
+
+#Guardar/Cargar Obligatorio teclear nombre.ext 
+
+#El juego almacema una lista de jugadas. (fila,columna,valor_anterir,valor_actual).
+#Para retroceder casillas la idea es ir leyendo dicha lista, extraer la ultima jugada y aplicar.
+#Despues almacenar la lista de jugadas sin la jugada extraida y actualizarla.
+#La idea es poder retreoceder N veces consecutivas.
+
+
+
+
+
+
+ 
