@@ -6,6 +6,9 @@ import java.io.File;
 import java.lang.Runtime;
 import javax.swing.*;
 
+//El programa abre y cierra el visor de fotos de windows para cada imagen
+//Tiempos expresados en milisegundos
+
 public class Dado {
     public static void main(String[] args) throws Exception {
         // TODO code application logic here
@@ -20,13 +23,13 @@ public class Dado {
             
             tirada=dado(tirada);
         
-            Thread.sleep(2000);
+            Thread.sleep(2000); //pausa
         
             cont++;
         
-            Runtime.getRuntime().exec("taskkill /F /IM Microsoft.Photos.exe");
+            Runtime.getRuntime().exec("taskkill /F /IM Microsoft.Photos.exe"); 
         
-            Thread.sleep(1000);
+            Thread.sleep(1000); //pausa
         }
         System.out.println("HA FINALIZADO EL JUEGO");
         System.out.println("Adios");
@@ -34,7 +37,7 @@ public class Dado {
     
      public static int dado (int dado)throws Exception{
 
-        dado=(int)(Math.random()*6)+1;
+        dado=(int)(Math.random()*6)+1;  //genera numero aleatorio
          if(dado==1){
             File uno = new File ("src/Dado/dado_1.jpg");
             Desktop dt = Desktop.getDesktop();
