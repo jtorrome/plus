@@ -2,7 +2,7 @@
 Parte Obligatoria
 -----------------
 
-Matriz de enteros 9x9. 
+El tablero consta de una matriz de enteros 9x9. 
 
 La cuadrícula está formateada y los ceros aparecen como celdas vacias. 
 
@@ -35,7 +35,7 @@ Retroceder partida. Actualmente funciona para la ultima jugada. (Sustituye el va
  
 -----------------------------------------
 
--Las funciones de resolver NO estan.
+-Las funciones de resolver NO estan disponibles.
 
 -Las funciones de no modificar las casillas iniciales NO estan.
 
@@ -43,7 +43,7 @@ Retroceder partida. Actualmente funciona para la ultima jugada. (Sustituye el va
 
 
 Añadido
--------
+--------------------------------------
 
 Pequeña introduccion y cierre a modo de presentacion.
 
